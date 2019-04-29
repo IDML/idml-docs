@@ -28,7 +28,7 @@ The artifacts are published to Maven so you can include it in your project with 
 
 ```xml
 <dependency>
-    <groupId>com.datasift.ptolemy</groupId>
+    <groupId>io.idml</groupId>
     <artifactId>ptolemy-core_2.12</artifactId>
     <version>1.0.xxx</version>
 </dependency>
@@ -39,5 +39,5 @@ The artifacts are published to Maven so you can include it in your project with 
 The dependency can also be managed with SBT:
 
 ```
-libraryDependencies += "com.datasift.ptolemy" %% "ptolemy-core" % "1.0.xxx"
+libraryDependencies += "io.idml.ptolemy" %% "ptolemy-core" % "1.0.xxx"
 ```

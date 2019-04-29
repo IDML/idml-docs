@@ -10,7 +10,7 @@ If you want to embed the library in your service, here's a short guide on how to
 
 Here's a simple Java "hello world":
 
-    import com.datasift.ptolemy.*;
+    import io.idml.ptolemy.*;
 
     public class JavaExample {
         public static void main(String[] args) {
@@ -77,7 +77,7 @@ This use case evolved from the interation data model at DataSift where we have r
     PtolemyValue facebookPost = PtolemyJson.parse("{\"message\": \"Some message\"}");
     // Chains can be run just like any other mapping
     PtolemyValue output = facebookMapping.run(facebookPost);
-    
+
 ![chain diagram](./diagrams/chain.png)
 
 ## Mapping Merges
