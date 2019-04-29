@@ -17,7 +17,7 @@ result = a + b
 
 ## REPL
 
-The REPL is the simplest way to try things out. You can download it from [here](https://github.com/datasift/ptolemy/releases) and then run it with:
+The REPL is the simplest way to try things out. You can download it from [here](https://github.com/IDML/idml/releases) and then run it with:
 
 	java -jar idml-1.0.xxx.jar repl
 
@@ -37,7 +37,7 @@ idml> output = "%s %s".format(a, b)
 
 ## Tool
 
-The IDML tool is the alternative way to evaluate IDML on the command line, it's contained in the same release as the repl from [github releases](https://github.com/datasift/ptolemy/releases).It is invoked on a command line with a set of mappings and will take line-delimited JSON on stdin and map it to stdout:
+The [idml-tool](https://github.com/IDML/idml-tool) is the alternative way to evaluate IDML on the command line. It is invoked on a command line with a set of mappings and will take line-delimited JSON on stdin and map it to stdout:
 
 ### Usage
 
@@ -65,4 +65,3 @@ andi@andi-workstation examples > java -jar idml.jar apply mapping.idml < input.j
 {}
 {}
 ```
-

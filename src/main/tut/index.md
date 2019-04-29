@@ -6,8 +6,6 @@ technologies:
  - third: ["Safe", "All actions can fail safely to ensure as much of your data was mapped as possible"]
 ---
 
-
-
 # Overview
 
 IDML is a data preparation language designed to process unstructured data at high volumes.
@@ -21,6 +19,3 @@ IDML is a data preparation language designed to process unstructured data at hig
 * __Extensible__ - Out of the box it has support for things like regular expressions, email and geolocation but it's easy to add new modules
 * __High-performance__ - Built for firehoses
 * __Java-based__ - Integrates with the emerging big data stack, including Hadoop MapReduce and Kafka
-
-
-
