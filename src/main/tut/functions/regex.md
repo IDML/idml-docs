@@ -4,7 +4,7 @@ title: Regex
 section: language
 ---
 
-These functions allow you to manipulate strings using Java regular expressions. The underlying implementation is re2 and the Syntax is available at https://github.com/google/re2/wiki/Syntax.
+These functions allow you to manipulate strings using Java regular expressions. The underlying implementation is re2 (see [syntax](https://github.com/google/re2/wiki/Syntax)).
 
 
 ## match
@@ -112,4 +112,3 @@ Check if the entire string matches a regular expression
      output = input.isMatch("foo")
      {"input": "foo bar baz"}
      {"output": false}
-
