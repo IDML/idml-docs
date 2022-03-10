@@ -129,3 +129,12 @@ This is your normal format string application function, it's called on a string 
     output = input.extract("%s|%s".format(type, name))
     {"input": [{"name": "a", "type": "A"}, {"name": "b", "type": "B"}]}
     {"output": ["A|a", "B|b"]}
+
+## languageName
+
+Looks up the name of an ISO 639 language code, in an optional target locale.
+
+```
+defaultName = code.languageName()
+danishName = code.languageName("da")
+```
